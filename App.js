@@ -14,13 +14,18 @@ export default function App() {
       <Cabecalho/>
       <View>
         <Botao
-        Logo="ios-apps" Texto="APPS" Cor="black" 
-        Logo2="ios-game-controller" Texto2="JOGOS" Cor2="green" 
+        Logo="ios-apps" Texto="APPS" Cor="green" 
+        Logo2="ios-game-controller" Texto2="JOGOS" Cor2="purple" 
         />
 
         <Botao  
-        Logo="ios-videocam" Texto="FILMES" Cor="#2956F1"
-        Logo2="ios-book-sharp" Texto2="LIVROS" Cor2="#FE9C10"
+        Logo="ios-videocam" Texto="FILMES" Cor="black"
+        Logo2="ios-book-sharp" Texto2="LIVROS" Cor2="blue"
+        />
+
+        <Botao  
+        Logo="musical-notes" Texto="MÚSICAS" Cor="darkorange"
+        Logo2="play" Texto2="VÍDEOS" Cor2="red"
         />
       </View>
 
